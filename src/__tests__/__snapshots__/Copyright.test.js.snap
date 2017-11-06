@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Copyright /> should render correctly 1`] = `
+<Copyright
+  config={
+    Object {
+      "copyright": Object {
+        "owner": "© Steven Natera",
+      },
+      "name": "Steven Natera",
+      "pages": Object {
+        "404": Object {
+          "content": Array [
+            Object {
+              "header": "NOT FOUND",
+              "paragraph": "You just hit a route that                         does not exist... the sadness.",
+            },
+          ],
+          "introText": "",
+          "path": "/404",
+          "title": "NOT FOUND",
+        },
+        "about": Object {
+          "content": Array [
+            Object {
+              "header": "About",
+              "paragraph": "I'm Steven Natera, a software engineer and entrepreneur. I spend a                        my free time working on open source projects, exploring emerging                       technologies (currently working with Rust and Webassembly), advising startups                       on technical requirements or teaching an introductory web development course.                       I'm happy to be emailed about technical queries, startup ideas,                       press inquiries and certainly any corrections or suggestions for material                       presented on my site.",
+            },
+          ],
+          "introText": "Hi! I'm Steven Natera. I write this blog, teach software                     engineering workshops, and explore emerging technologies.",
+          "path": "/about",
+          "title": "About",
+        },
+        "contact": Object {
+          "content": Array [
+            Object {
+              "header": "Contact",
+              "paragraph": "Email is the easiest way if you want to reach out                         and I usually respond promptly. Use the contact form                         below.",
+            },
+            Object {
+              "header": "What will get a response",
+              "paragraph": "Inqueries about speaking at events or invitations to write                         a guest post, will get a response even if I can't                         accept the invite. If you are interested in                         collaborating on one of my open source projects or want                         career advice I will respond. If your message doesn't                         explicitly look like it needs a response or it's vague                         or not clear what the purpose is, you may not hear                         back from me. Recruiters or solicitors who send vague,                         unpersonalized, or mass emails are not welcome.",
+            },
+          ],
+          "introText": "I'm pretty easy to get hold of, here's how I use                     different channels to communicate with people and how best                     to contact me",
+          "path": "/contact",
+          "title": "Contact",
+        },
+        "home": Object {
+          "content": Array [
+            Object {
+              "header": "",
+              "paragraph": "",
+            },
+          ],
+          "introText": "Hi! I'm Steven Natera. I write this blog,                     teach software engineering workshops, and explore                     emerging technologies.",
+          "path": "/",
+          "title": "Home",
+        },
+        "speaking": Object {
+          "content": Array [
+            Object {
+              "header": "Speaking",
+              "paragraph": "You'll often find me speaking at colleges, or technology                      events showing people how easy it is to create robust web                     applications. I cater to a wide variety of audiences, from curious the                     first-timers looking to get their feet wet in web development to the                     experienced professionals looking to perfect their craft with new tips and tricks.",
+            },
+            Object {
+              "header": "Style",
+              "paragraph": "A huge amount of effort goes into all my talks and workshops, and I continue to refine my approach over time.                         The events that I find the most fulfilling and receive the best feedback are those that blend                         learning with entertainment. I usually blend visual presentations with live demos and frequently                         involve the audience in activities. My talks are very carefully prepared and rehearsed yet also                         remain as ad-libbed as possible; they must feel organic and natural as possible.",
+            },
+          ],
+          "introText": "I deliver talks on NodeJS and I teach software engineering                     workshops.",
+          "path": "/speaking",
+          "title": "Speaking",
+        },
+        "thanks": Object {
+          "content": Array [
+            Object {
+              "header": "Thank you",
+              "paragraph": "Your email has been sent. I will ensure I respond as                         soon as possible. Read my blog posts in the mean time.                         Follow me on Twitter for my latest updates.",
+            },
+          ],
+          "introText": "",
+          "path": "/thanks",
+          "title": "Thanks",
+        },
+      },
+      "socialLinks": Array [
+        Object {
+          "icon": "fa-twitter",
+          "name": "Twitter",
+          "path": "https://www.twitter.com/stevennatera",
+        },
+        Object {
+          "icon": "fa-linkedin",
+          "name": "LinkedIn",
+          "path": "https://www.linkedin.com/in/snatera",
+        },
+        Object {
+          "icon": "fa-github",
+          "name": "Github",
+          "path": "https://www.github.com/nodox",
+        },
+      ],
+    }
+  }
+>
+  <div
+    id="copyright"
+  >
+    <ul>
+      <li>
+        © Steven Natera
+      </li>
+      <li>
+        Design: 
+        <a
+          href="https://html5up.net"
+        >
+          HTML5 UP
+        </a>
+      </li>
+      <li>
+        Powered by: 
+        <a
+          href="https://www.gatsbyjs.org/"
+        >
+          GatsbyJS
+        </a>
+      </li>
+    </ul>
+  </div>
+</Copyright>
+`;
