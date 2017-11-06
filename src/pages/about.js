@@ -1,22 +1,23 @@
 import React from 'react';
+import config from '../theme-config';
 
 export default function About() {
+
+  const pageContent = config['pages']['about']['content'].map((obj, idx) => {
+    return (
+      <div key={idx}>
+        <header className="major">
+          <h1>{obj.header}</h1>
+        </header>
+        <p>{obj.paragraph}</p>
+      </div>
+    )
+  });
+
   return (
     <div id="main">
       <section className="post">
-        <header className="major">
-          <h1>About</h1>
-        </header>
-        <div className="image main"><img src="images/pic01.jpg" alt=""/></div>
-        <p>
-          I'm Steven Natera, a software engineer and entrepreneur. I spend a 
-          my free time working on open source projects, exploring emerging 
-          technologies (currently working with Rust and Webassembly), advising startups 
-          on technical requirements or teaching an introductory web development course. 
-          I'm happy to be emailed about technical queries, startup ideas, 
-          press inquiries and certainly any corrections or suggestions for material 
-          presented on my site.
-        </p>
+        {pageContent}
       </section>
     </div>
   );
